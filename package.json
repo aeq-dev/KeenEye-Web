@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.2",
@@ -21,6 +22,7 @@
     "@tailwindcss/forms": "^0.5.2",
     "autoprefixer": "^10.4.2",
     "babel-eslint": "^10.1.0",
+    "cypress": "^10.11.0",
     "eslint": "^7.17.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-next": "^0.0.0",
